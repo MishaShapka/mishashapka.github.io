@@ -1,7 +1,41 @@
-header {
+body {
+  font-family: Arial, "PT Sans", sans-serif; }
+
+div {
+  border: 1px solid black; }
+
+.lopho {
   background: #DCDCDC; }
 
-.menu {
+.phone {
+  float: right; }
+  .phone li {
+    font-size: 30px;
+    list-style: none; }
+  .phone a {
+    font-size: 14px;
+    float: right;
+    text-decoration: none; }
+
+nav {
+  border: 1px solid black;
   background: #767676; }
+
+.menu {
+  width: 100%;
+  text-align: center; }
+  .menu li {
+    margin-right: 50px;
+    list-style: none;
+    float: left; }
+  .menu a {
+    color: #fff;
+    font-size: 18px;
+    text-decoration: none; }
+
+.bunner {
+  background-color: #fff;
+  background: url(../img/bunner.png) no-repeat center top/cover;
+  height: 400px; }
 
 /*# sourceMappingURL=main.css.map */
