@@ -1,41 +1,110 @@
 body {
   font-family: Arial, "PT Sans", sans-serif; }
 
-div {
-  border: 1px solid black; }
-
-.lopho {
-  background: #DCDCDC; }
-
-.phone {
-  float: right; }
-  .phone li {
-    font-size: 30px;
-    list-style: none; }
-  .phone a {
-    font-size: 14px;
-    float: right;
-    text-decoration: none; }
-
 nav {
-  border: 1px solid black;
   background: #767676; }
 
-.menu {
-  width: 100%;
-  text-align: center; }
-  .menu li {
-    margin-right: 50px;
-    list-style: none;
-    float: left; }
-  .menu a {
-    color: #fff;
-    font-size: 18px;
-    text-decoration: none; }
+header {
+  background-color: #DCDCDC; }
+  header .logo {
+    margin: 30px 0; }
+  header .phone {
+    margin: 30px 0;
+    float: right; }
+    header .phone li {
+      font-size: 30px;
+      list-style: none; }
+    header .phone a {
+      font-size: 14px;
+      float: right;
+      text-decoration: none; }
+  header .menu {
+    text-align: center;
+    height: 60px; }
+    header .menu li {
+      margin-top: 25px;
+      list-style: none;
+      float: left;
+      position: relative;
+      border-right: 3px solid #fff;
+      padding: 0 16px 0 16px; }
+    header .menu li:last-child {
+      border: none; }
+    header .menu a {
+      color: #fff;
+      font-size: 18px;
+      text-decoration: none; }
 
 .bunner {
   background-color: #fff;
   background: url(../img/bunner.png) no-repeat center top/cover;
   height: 400px; }
+
+.navig_top a {
+  color: #767676;
+  font-size: 14px;
+  text-decoration: underline; }
+
+a.active {
+  text-decoration: none; }
+
+.content {
+  margin: 24px 0;
+  color: #767676; }
+  .content ul {
+    margin: 0;
+    padding: 0; }
+  .content li {
+    list-style: none; }
+  .content a {
+    color: #767676;
+    text-decoration: none; }
+  .content .y {
+    padding: 0 30px; }
+    .content .y li {
+      list-style-type: circle; }
+  .content p {
+    text-align: center; }
+
+.box1 {
+  background: #DCDCDC;
+  margin: 10px;
+  padding: 10px;
+  text-align: none; }
+  .box1 img {
+    width: 100%; }
+  .box1 p {
+    text-align: left;
+    margin-top: 20px; }
+  .box1 .add {
+    width: 30px; }
+
+hr {
+  color: #888; }
+
+.box2 {
+  margin-top: 40px; }
+  .box2 p {
+    text-align: left;
+    font-size: 14px;
+    line-height: 22px; }
+
+footer {
+  background: #767676;
+  height: 220px; }
+  footer p {
+    margin-top: 50px;
+    font-size: 14px;
+    font-weight: 25px;
+    color: #fff; }
+    footer p span {
+      text-decoration: underline; }
+  footer a {
+    text-decoration: underline;
+    color: #fff; }
+  footer ul {
+    margin-top: 50px; }
+  footer li {
+    list-style: none; }
 
 /*# sourceMappingURL=main.css.map */

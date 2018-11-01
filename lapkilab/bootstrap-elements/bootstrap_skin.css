@@ -1,0 +1,14 @@
+.btn {
+	border-radius: 0;
+}
+.carousel .item {
+	height: 400px;
+}
+.carousel-control.left,
+.carousel-control.right{
+	background-color: none;
+}
+.carousel-control {
+    position: absolute;
+
+}
