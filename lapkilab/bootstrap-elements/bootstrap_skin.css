@@ -12,3 +12,8 @@
     position: absolute;
 
 }
+hr {
+    color: black;
+    border: 20px;
+    width: 100%;
+}

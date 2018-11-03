@@ -55,7 +55,8 @@ a.active {
     margin: 0;
     padding: 0; }
   .content li {
-    list-style: none; }
+    list-style: none;
+    line-height: 30px; }
   .content a {
     color: #767676;
     text-decoration: none; }
@@ -65,6 +66,14 @@ a.active {
       list-style-type: circle; }
   .content p {
     text-align: center; }
+  .content .xv {
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center; }
+
+.Prise_list {
+  font-size: 30px; }
 
 .box1 {
   background: #DCDCDC;
@@ -78,9 +87,6 @@ a.active {
     margin-top: 20px; }
   .box1 .add {
     width: 30px; }
-
-hr {
-  color: #888; }
 
 .box2 {
   margin-top: 40px; }
