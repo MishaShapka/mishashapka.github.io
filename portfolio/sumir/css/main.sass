@@ -1,8 +1,12 @@
 @import "sass/fonts"
+@import "sass/hamburgers/hamburgers.scss"
+
+
 body
     margin: 0
     padding: 0
 div
+    // border: 2px solid black
 
 h2
     font-size: 30px    
@@ -19,13 +23,29 @@ p
 #header
     text-align: center
     background: url(../img/BG.png) no-repeat top center /cover
-    .zag_head
-        margin: 300px 0 260px 0
-        color: #fff
-        h1
-            font-size: 48px
-    img
-        margin-bottom: 30px
+    height: 100vh
+    
+    .head
+        // border: 2px solid black
+        height: 70vh
+        display: flex
+        align-items: center
+        justify-content: center
+        flex-direction: column
+        
+        .zag_head
+            
+            color: #fff
+            h1
+                font-size: 48px
+        // .img 
+        //     border: 2px solid black
+        //     display: flex
+        //     align-items: flex-end
+        //     height: 20%
+        //     img
+               
+                
 #section_1
     
 #section_img_1
@@ -167,6 +187,11 @@ p
             text-align: center
             width: 30%
             background: #F2F2F2
+            a
+                color: #000
+                i
+                    padding: 8px
+
         .item_2
             width: 70%
             padding: 100px
@@ -209,8 +234,15 @@ footer
             color: #D87843 
             text-decoration: none
             font-size: 16px
-       
-
+.hamburger
+    display: flex
+    .hamburger-box
+        
+        margin: 20px
+.carousel-inner
+    margin-top: 80px
+    display: flex
+    justify-content: space-around
 
 
 
