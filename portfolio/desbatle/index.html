@@ -6,6 +6,9 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
     <title>Document</title>
     <link rel="stylesheet" href="css/main.min.css"/>
+    <script src="http://code.jquery.com/jquery-latest.js"></script>
+    <script src="js/contdown.js"></script>
+    <script src="js/time.js"></script>
   </head>
   <body>
     <header class="header">
@@ -85,7 +88,22 @@
             </div>
           </div>
           <h1>Обратный отсчет</h1>
-          <div class="counter"></div>
+          <div class="counter">
+            <ul id="countdown">
+              <li><span class="days">00</span>
+                <p class="timeRefDays">days</p>
+              </li>
+              <li><span class="hours">00</span>
+                <p class="timeRefHours">hours</p>
+              </li>
+              <li><span class="minutes">00</span>
+                <p class="timeRefMinutes">minutes</p>
+              </li>
+              <li><span class="seconds">00</span>
+                <p class="timeRefSeconds">seconds</p>
+              </li>
+            </ul>
+          </div>
         </div>
       </section>
       <section class="sec-sponsors">
@@ -120,16 +138,16 @@
           <form action="">
             <div class="sec-contacts_flex">
               <div class="sec-contacts_flex-item">
-                <input type="text"/>
-                <input type="text"/>
+                <input type="text" placeholder="Имя" required="required"/>
+                <input type="text" placeholder="Фамилия"/>
               </div>
               <div class="sec-contacts_flex-item">
-                <input type="text"/>
-                <input type="text"/>
+                <input type="email" placeholder="Email" required="required"/>
+                <input type="url" placeholder="Сайт"/>
               </div>
             </div>
             <div class="message">
-              <input type="text"/>
+              <input type="text" placeholder="Сообщение"/>
             </div>
             <button class="form_btn">Отправить</button>
           </form>
@@ -140,12 +158,13 @@
           <h1>Новостная рассылка</h1>
           <p>Если вы хотите первыми узнать о ходе Битвы, подпишитесь на рассылку.</p>
           <div class="footer_email">
-            <input type="text"/>
+            <input type="text" placeholder="email адрес"/>
             <button class="email_btn">Подписаться</button>
           </div>
-          <div class="social"><img src="img/2-layers.png" alt=""/><img src="img/2-layers(1).png" alt=""/><img src="img/2-layers(2).png" alt=""/><img src="img/2-layers(3).png" alt=""/></div>
+          <div class="social"><a href="#" alt="Твиттер"> <img src="img/2-layers.png" alt=""/></a><a href="#" alt=""> <img src="img/2-layers(1).png" alt=""/></a><a href="#" alt="Инстаграм"> <img src="img/2-layers(2).png" alt=""/></a><a href="#" alt="Пинтерест"> <img src="img/2-layers(3).png" alt=""/></a></div>
         </div>
       </footer>
     </main>
   </body>
 </html>
+<!--TODO Подключить файл для скачивания.-->
