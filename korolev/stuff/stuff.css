@@ -90,7 +90,7 @@ body, html {margin:0; padding: 0; width: 100%; height: 100%; font-family: 'PT Se
                 color: rgb(21,23,26);
             }
             .seven {
-                background: #000 url("../img4/foto12.jpg") no-repeat center top/cover;
+                background: #000 url("../img4/foto12.jpg") no-repeat center bottom/cover;
                 color: rgb(21,23,26);
             }
             .eight {
@@ -102,15 +102,15 @@ body, html {margin:0; padding: 0; width: 100%; height: 100%; font-family: 'PT Se
                 color: rgb(21,23,26);
             }
             .nine {
-                background: #000 url("../img4/foto14.jpg") no-repeat center top /cover;
+                background: #000 url("../img4/foto14.jpg") no-repeat center bottom /cover;
                 color: rgb(21,23,26);
             }
             .ten {
-                background: #000 url("../img4/foto15.jpg") no-repeat center top /cover;
+                background: #000 url("../img4/foto15.jpg") no-repeat center bottom /cover;
                 color: rgb(21,23,26);
             }
             .eleven {
-                background: #000 url("../img4/foto16.jpg") no-repeat center top /cover;
+                background: #000 url("../img4/foto16.jpg") no-repeat center center /cover;
                 color: rgb(21,23,26);
             }
             .twelve {
@@ -125,11 +125,11 @@ body, html {margin:0; padding: 0; width: 100%; height: 100%; font-family: 'PT Se
                 margin:0 60% 0 10%;
             }
             .fourteen {
-                background: #000 url("../img4/foto19.jpeg") no-repeat ;
+                background: #000 url("../img4/foto19.jpeg") no-repeat center top /cover;
                 color: rgb(21,23,26);
             }
             .fifteen {
-                background: #000 url("../img4/foto20.jpg") no-repeat ;
+                background: #000 url("../img4/foto20.jpg") no-repeat center bottom /cover;
                 color: rgb(21,23,26);
             }
             .sixteen {
