@@ -10,6 +10,7 @@
 
 ## Тестовые штуки 
 + [Визитка (тестовый вариант №1)](https://mishashapka.github.io/site/business%20card/ "")
++ [Визитка (тестовый вариант №2)](https://mishashapka.github.io/site/episode/ "")
 + [Планета Земля и смена времени суток](https://mishashapka.github.io/site/planets/ "")
 + [Слайдер](https://mishashapka.github.io/site/rosait/ "")
 
