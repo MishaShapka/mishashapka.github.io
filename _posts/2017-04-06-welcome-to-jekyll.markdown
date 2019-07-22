@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Мой первый пост"
+title: "Мой первый пост, в котором я ничего писать не буду. Потому что у меня лапки и вообще лень."
 date: 2019-07-17 10:00:00 +0300
 description: You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. # Add post description (optional)
 img: i-rest.jpg # Add image post (optional)
