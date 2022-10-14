@@ -1,0 +1,107 @@
+.wrapper .wrapper_blog {
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    margin-top: 10vh;
+    width: 60%;
+    font-family: "Merriweather";
+    font-weight: normal;
+    font-style: normal;
+    font-size: 19px;
+    color: #464848;
+    line-height: 36px;
+  }
+  
+  .wrapper .wrapper_blog h1, h2 {
+    /* margin-top: 40px; */
+    text-align: center;
+  }
+  
+  .wrapper .wrapper_blog .text {
+    text-align: center;
+    margin-top: 10px;
+  }
+  
+  .wrapper .wrapper_blog p {
+    margin-top: 40px;
+  }
+  
+  
+  .wrapper .wrapper_blog .img1 {
+    font-family: "FirstTimeWriting";
+    margin-top: 40px;
+    text-align: center;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    width: 100%;
+  }
+  
+  .wrapper .wrapper_blog .img1 img {
+    text-align: center;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    width: 100%;
+  }
+  
+  .wrapper .wrapper_blog .img2 {
+    font-family: "FirstTimeWriting";
+    margin-top: 40px;
+    text-align: center;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  
+  .wrapper .wrapper_blog .img2 img {
+    text-align: center;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    width: 80%;
+  }
+  
+  .wrapper .wrapper_blog .img2 .img2_1 {
+    width: 100%;
+  }
+  
+  .wrapper .wrapper_blog .img2 .img2_2 {
+    width: 100%;
+  }
+  
+  .wrapper .wrapper_blog .img3 {
+    font-family: "FirstTimeWriting";
+    margin-top: 40px;
+    text-align: center;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    width: 100%;
+  }
+  
+  .wrapper .wrapper_blog .img3 img {
+    text-align: center;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    width: 70%;
+  }
+  
+  .wrapper .wrapper_blog .tapok {
+    background-color: #c5c5c5;
+    margin-top: 60px;
+    padding: 40px 0;
+    text-align: center;
+  }
+hr{
+  margin: 60px 0;
+}

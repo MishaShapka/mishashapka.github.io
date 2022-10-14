@@ -1,0 +1,44 @@
+
+
+.wrapper_card {
+    
+    margin: 0 auto;
+    /* margin-top: 10vh; */
+    width: 60%;
+
+    height: 100vh;
+    display: grid;
+    align-content: space-around;
+    /* align-items: center; */
+    /* align-content: center; */
+    /* align-content: center; */
+}
+  
+.wrapper_card p {
+    /* margin-top: 40px; */
+}
+
+.logo2 {
+    font-family: "Usually-font";
+    font-weight: normal;
+    font-style: normal;
+    text-align: center;
+    font-size: 2em;
+    margin-left: calc(2vw/1.6);
+    letter-spacing: calc(2vw/1.6);
+    font-weight: bold;
+  }
+
+@media only screen and (max-width: 768px) {
+  .logo2 {
+        font-family: "Usually-font";
+        font-weight: normal;
+        font-style: normal;
+        text-align: center;
+        font-size: 14px;
+        margin-left: calc(2vw/1.6);
+        letter-spacing: calc(2vw/1.6);
+        font-weight: bold;
+      }
+  
+  }

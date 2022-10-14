@@ -1,0 +1,91 @@
+@import url(/assets/css/font.css);
+@import url(/assets/css/index.css);
+
+@import url(/assets/css/wrapper.css);
+
+@import url(/assets/css/wrapper_blog.css);
+@import url(/assets/css/wrapper_blog_main.css);
+
+@import url(/assets/css/wrapper_card.css);
+@import url(/assets/css/swipeView.css);
+
+@import url(/assets/css/soc.css);
+
+@import url(/assets/font-awesome/css/font-awesome.min.css);
+
+
+ /* body {
+  background-color:chartreuse;
+}
+.wrapper {
+  background-color:blueviolet;
+}
+.logo{
+  background:deeppink;
+}
+.logo2{
+  background:deeppink;
+}
+.wrapper_card {
+  background-color: red;
+}
+section{
+  background-color: dimgray;
+}
+p{
+  background:cornflowerblue;
+}
+img{
+  background:darkgreen;
+}
+.soc{
+  background-color: darkslateblue;
+}  */
+/* .wrapper_blog_main{
+  background: rgb(8, 211, 86);
+} */
+/* .box{
+  background:black;
+} */
+.box p{
+  background-color: blue;
+}
+/* .logo{
+  background: rgb(0, 0, 0);
+} */
+
+
+
+
+@media only screen and (max-width: 768px) {
+  .wrapper {
+    width: 100%;
+  }
+  .wrapper .wrapper_logo {
+    margin-top: 10vh;
+  }
+  .wrapper .wrapper_logo .logo {
+    font-size: 28px;
+  }
+  .wrapper .wrapper_foto {
+    width: 80%;
+  }
+  .wrapper .wrapper_soc {
+    margin-top: 6vh;
+  }
+  .wrapper .wrapper_soc .soc a {
+    font-size: 18px;
+  }
+  .wrapper .wrapper_blog {
+    font-size: 19px;
+    width: 90%;
+  }
+  .wrapper .wrapper_blog h1 {
+    font-size: 26px;
+  }
+  .wrapper .wrapper_card {
+    width: 100%;
+  }
+
+}
+/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,30 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+}
+  
+::-webkit-scrollbar {
+    width: 0;
+}
+  
+body {
+    /* background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat; */
+}
+  
+a {
+    /* background-color: chocolate; */
+    color: #000;
+}
+  
+a :hover {
+    color: red;
+    /* font-weight: bold; */
+}
+  
+u {
+    text-decoration: underline;
+}

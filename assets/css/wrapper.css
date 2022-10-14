@@ -1,0 +1,31 @@
+.wrapper {
+    background-color: #fff;
+    margin: 0 auto;
+    width: 80%;
+  }
+  
+  .wrapper .wrapper_logo {
+    margin-top: 12vh;
+  }
+  
+  .wrapper .wrapper_logo .logo {
+    font-family: "Usually-font";
+    font-weight: normal;
+    font-style: normal;
+    text-align: center;
+    font-size: 2em;
+    margin-left: calc(2vw/1.6);
+    letter-spacing: calc(2vw/1.6);
+    font-weight: bold;
+  }
+  
+  .wrapper .wrapper_foto {
+    background-image: url(/assets/img/IMG_0556.PNG);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    margin-top: 10vh;
+    width: 60%;
+    height: 40vh;
+  }
